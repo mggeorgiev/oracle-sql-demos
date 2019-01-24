@@ -24,7 +24,8 @@ AND
     POPULATION > 120000;
 
 /*
-Revising the Select Query II
+Select All
+Query all columns (attributes) for every row in the CITY table.
 */
 SELECT
     *
