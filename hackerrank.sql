@@ -1,8 +1,31 @@
+/*
+https://www.hackerrank.com/domains/sql?filters%5Bstatus%5D%5B%5D=unsolved&badge_type=sql
+*/
+
+/*
+Revising the Select Query I
+*/
+
 SELECT
     *
 FROM
     CITY;
 
+/*
+Revising the Select Query II
+*/
+SELECT
+    CITY.NAME
+from
+    CITY
+WHERE
+    CountryCode = 'USA'
+AND
+    POPULATION > 120000;
+
+/*
+Revising the Select Query II
+*/
 SELECT
     *
 FROM
